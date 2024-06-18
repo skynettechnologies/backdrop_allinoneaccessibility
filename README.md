@@ -35,26 +35,26 @@ Step 1 : Go to Admin -> Functionality -> Install new Module
 
 Step 2 : In the Install new Module section, click on the sidebar link labeled Manual Installation.
 
-![Installation Screenshot](image/screenshot2.png)
+![Installation Screenshot](image/Screenshot2.png)
 
 Step 3 : Choose the All in One Accessibility zip file from your computer and Click Install
 
-![Installation Screenshot](image/screenshot3.png)
+![Installation Screenshot](image/Screenshot3.png)
 
 Step 4 : After Install Click the Enable newly added modules
 
-![Installation Screenshot](image/screenshot4.png)
+![Installation Screenshot](image/Screenshot4.png)
 
 Step 5 : Search and Enable the Module
 1. In the module management page, search for All in One Accessibility.
 2. Check the checkbox next to it.
 3. Save the configuration.
 
-![Installation Screenshot](image/screenshot8.png)
+![Installation Screenshot](image/Screenshot8.png)
 
 Step 6 : To configure the module, click the Configure button next to the All in One Accessibility module.
 
-![Installation Screenshot](image/screenshot6.png)
+![Installation Screenshot](image/Screenshot6.png)
 
 ## Configuration
 
