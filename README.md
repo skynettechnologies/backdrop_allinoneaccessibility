@@ -31,7 +31,7 @@ Install the module using this instructions
 
 Step 1 : Go to Admin -> Functionality -> Install new Module
 
-![Installation Screenshot](image/screenshot1.png)
+![Installation Screenshot](image/Screenshot1.png)
 
 Step 2 : In the Install new Module section, click on the sidebar link labeled Manual Installation.
 
