@@ -1,0 +1,38 @@
+<?php
+/**
+ * @file
+ * A short description of this module.
+ */
+
+/**
+ * Implements hook_config_info().
+ */
+function allinoneaccessibility_config_info() {
+  return array(
+    'allinoneaccessibility.settings' => array(
+      'label' => t('AllinOneAccessibility settings'),
+      'group' => t('Configuration'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function allinoneaccessibility_menu() {
+  return array(
+    'admin/config/system/allinoneaccessibility' => array(
+      'title' => 'All in One Accessibility™',
+      'description' => 'Configure AllinOneAccessibility.',
+      'page callback' => 'backdrop_get_form',
+      'page arguments' => array('allinoneaccessibility_configuration_form'),
+      'access arguments' => array('administer allinoneaccessibility'),
+      'file' => 'allinoneaccessibility.admin.inc',
+    ),
+  );
+}
+
+/**
+ * Implements hook_permission().
+ */
+

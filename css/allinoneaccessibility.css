@@ -1,0 +1,32 @@
+/**
+ * @file
+ * Custom CSS for the AllinOneAccessibility module.
+ */
+
+
+  
+                     .aioa-cancel-button {
+                       text-decoration: none;
+                       display: inline-block;
+                       vertical-align: middle;
+                       border: 2px solid #420083;
+                       border-radius: 4px;
+                       background-color: #420083;
+                       box-shadow: 0px 0px 2px 0px #333333;
+                       color: #ffffff;
+                       text-align: center;
+                       box-sizing: border-box;
+                       padding: 10px;
+                     }
+
+                     .aioa-cancel-button:hover {
+                       border-color: #420083;
+                       background-color: white;
+                       box-shadow: 0px 0px 2px 0px #333333;
+                       color: black;
+                     }
+
+                     .aioa-cancel-button:hover .mb-text {
+                       color: #420083;
+                     }
+        

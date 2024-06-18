@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the AllinOneAccessibility module.
+ */
+
+/**
+ * Upgrade from Drupal 7.
+ */
+function allinoneaccessibility_update_1000() {
+  // Convert D7 variables to config.
+  $config = config('allinoneaccessibility.settings');
+  $config->set('opinion_of_backdrop', update_variable_get('allinoneaccessibility_opinion_drupal', 'Awesome!'));
+  $config->save();
+
+  // Delete D7 variables.
+  update_variable_del('allinoneaccessibility_opinion_drupal');
+}
