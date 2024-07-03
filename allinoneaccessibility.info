@@ -3,20 +3,14 @@ name = All in One Accessibility™
 description = Quick Web Accessibility Implementation with All in One Accessibility™!
 backdrop = 1.x
 
-; Added by Backdrop CMS packaging script on 2023-07-19
 project = allinoneaccessibility
 version = 1.0.07
-timestamp = 1689811297
 
-; Link to the module's configuration page.
 configure = admin/config/system/allinoneaccessibility
 
-; Add custom CSS & JS files.
-stylesheets[all][] = css/allinoneaccessibility.css
 scripts[] = js/allinoneaccessibility.js
 
-; Find suggested packages and tags at: https://docs.backdropcms.org/documentation/module-packages-and-tags
-package = User interface
+package = Widget
 tags[] = accessibility
 tags[] = WCAG
 tags[] = ATAG
@@ -33,7 +27,4 @@ tags[] = web accessibility plugin
 tags[] = digital accessibility plugin
 tags[] = digital accessibility widget
 tags[] = web accessibility compliance
-tags[] = userways alternative
-tags[] = Australian DDA
-tags[] = Israeli Standard 5568
 

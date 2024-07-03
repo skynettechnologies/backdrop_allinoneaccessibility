@@ -32,7 +32,3 @@ function allinoneaccessibility_menu() {
   );
 }
 
-/**
- * Implements hook_permission().
- */
-

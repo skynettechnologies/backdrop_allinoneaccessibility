@@ -1,6 +1,5 @@
-# All in One Accessibility™: Backdrop CMS Module
+# All in One Accessibility™
 
-## Description
 [All in One Accessibility](https://www.skynettechnologies.com/all-in-one-accessibility) AI Widget Supports 140 Languages and includes 70+ features. Screen Reader, Talk & Type, Voice Navigation, Dictionary, Virtual Keyboard, Accessibility Profiles, Sign language Libras (Brazilian Portuguese) Custom Widget Color, Icon size, Position, Talk & Type, GA4 Tracking and custom accessibility statement link are some of the top features.
 
 Our AI automatically remediates images Alternative text and uses the accessibility interface which handles UI and design related adjustments. All in One Accessibility app enhances your website accessibility to people with hearing or vision impairments, motor impaired, color blind, dyslexia, cognitive & learning impairments, seizure and epileptic, and ADHD problems.
@@ -16,45 +15,16 @@ Following features can be added as an addon:
 - Live Website Translations
 - VPAT / ACR Report
 - Manual Accessibility Audit
-- Accessibility Monitor
 
 For more details/features, Please visit [All in One Accessibility](https://www.skynettechnologies.com/all-in-one-accessibility).
 
+## Prerequisites
+- Backdrop version ^1.5.3 or later.
+
 ## Installation
+Install this module using the official Backdrop CMS instructions at https://docs.backdropcms.org/documentation/extend-with-modules.
 
-### Prerequisites
-- Backdrop version v1.28.0
-
-### Steps
-
-Install the module using this instructions
-
-Step 1 : Go to Admin -> Functionality -> Install new Module
-
-![Installation Screenshot](image/Screenshot1.png)
-
-Step 2 : In the Install new Module section, click on the sidebar link labeled Manual Installation.
-
-![Installation Screenshot](image/Screenshot2.png)
-
-Step 3 : Choose the All in One Accessibility zip file from your computer and Click Install
-
-![Installation Screenshot](image/Screenshot3.png)
-
-Step 4 : After Install Click the Enable newly added modules
-
-![Installation Screenshot](image/Screenshot4.png)
-
-Step 5 : Search and Enable the Module
-1. In the module management page, search for All in One Accessibility.
-2. Check the checkbox next to it.
-3. Save the configuration.
-
-![Installation Screenshot](image/Screenshot8.png)
-
-Step 6 : To configure the module, click the Configure button next to the All in One Accessibility module.
-
-![Installation Screenshot](image/Screenshot6.png)
+Visit the configuration page under Administration > Configuration > System > allinoneaccessibility (admin/config/system/allinoneaccessibility) and enter the required information.
 
 ## Configuration
 
@@ -109,8 +79,21 @@ Join our affiliate program and earn commissions by promoting All in One Accessib
 
 For more details, Please visit [Partnership Opportunities](https://www.skynettechnologies.com/partner-program)
 
-## About
+## Issues
+
+Bugs and feature requests should be reported in the [Issue Queue](https://github.com/skynettechnologies/backdrop_allinoneaccessibility/issues)
+
+## Current Maintainers
+
+- [Skynet Technologies USA LLC](https://github.com/skynettechnologies/)
+
+## Credits
 
 This addon is developed and maintained by [Skynet Technologies USA LLC](https://www.skynettechnologies.com)
+
+## License
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
+This project is GPL v3 software.
+See the LICENSE.txt file in this directory for complete text.
 
 

@@ -1,0 +1,53 @@
+/**
+ * @file
+ * CSS for the AllinOneAccessibility module.
+ */
+
+.get-strated-btn,
+.get-strated-btn:hover {
+  background-color: #2855d3;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.aioa-cancel-button {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #420083;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #420083;
+  box-shadow: 0px 0px 2px 0px #333333;
+  color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.aioa-cancel-button:hover {
+  border-color: #420083;
+  background-color: white;
+  box-shadow: 0px 0px 2px 0px #333333;
+  color: black;
+  text-decoration: none;
+
+}
+
+.aioa-cancel-button:hover .mb-text {
+  color: #420083;
+}
+
+.widget {
+
+  float: left;
+}
+
+.subscription {
+  float: right;
+}
+
+h5 {
+  font-weight: 450;
+  color: #000;
+}
